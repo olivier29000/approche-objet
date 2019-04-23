@@ -6,5 +6,20 @@ public class AdressePostale {
 	public String libelleRue;
 	public int codePostal;
 	public String ville;
-	
+
+	public AdressePostale(int paramNumeroRue, String paramLibelleRue, int paramCodePostal, String paramVille) {
+		// TODO Auto-generated constructor stub
+
+		numeroRue = paramNumeroRue;
+		libelleRue = paramLibelleRue;
+		codePostal = paramCodePostal;
+		ville = paramVille;
+
+		System.out.println("vous venez de créer l'adresse");
+		System.out.println(paramNumeroRue);
+		System.out.println(paramLibelleRue);
+		System.out.println(paramCodePostal);
+		System.out.println(paramVille);
+	}
+
 }
