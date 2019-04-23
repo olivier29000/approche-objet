@@ -7,6 +7,8 @@ public class AdressePostale {
 	public int codePostal;
 	public String ville;
 
+	public static int nbDepartements = 101;
+
 	public AdressePostale(int paramNumeroRue, String paramLibelleRue, int paramCodePostal, String paramVille) {
 		// TODO Auto-generated constructor stub
 
