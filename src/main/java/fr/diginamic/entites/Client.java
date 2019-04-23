@@ -7,6 +7,34 @@ public class Client {
 	public String prenom;
 	public AdressePostale adresseDuClient;
 
+	public String retourneNom() {
+		return this.nom.toUpperCase();
+	}
+
+	public String retournePrenom() {
+		return this.prenom;
+	}
+
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+
+	public void setPrenom(String prenom) {
+		this.prenom = prenom;
+	}
+
+	public String getNom() {
+		return this.nom;
+	}
+
+	public String getPrenom() {
+		return this.prenom;
+	}
+
+	public int getNumeroDeCompte() {
+		return this.numeroCompte;
+	}
+
 	public Client(int numeroCompte, String nom, String prenom, AdressePostale adresseDuClient) {
 		this(numeroCompte, nom, prenom);
 		this.adresseDuClient = adresseDuClient;

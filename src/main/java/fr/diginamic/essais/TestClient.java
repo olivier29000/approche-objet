@@ -11,6 +11,13 @@ public class TestClient {
 				new AdressePostale(42, "rue de la paix", 44500, "Trouville"));
 		Client madameTomate = new Client(2, "citrouille", "thomas",
 				new AdressePostale(42, "rue du frout", 92400, "Asniere"));
+
+		System.out.println(madameTomate.retourneNom());
+		System.out.println(madameTomate.retournePrenom());
+		madameTomate.setNom("tata");
+		madameTomate.setPrenom("coucou");
+		System.out.println(madameTomate.retourneNom());
+		System.out.println(madameTomate.retournePrenom());
 	}
 
 }
