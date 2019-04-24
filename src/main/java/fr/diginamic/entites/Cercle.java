@@ -6,13 +6,17 @@ public class Cercle {
 	public Cercle(double rayon) {
 		rayonDuCercle = rayon;
 
-		System.out.println("Nouveau cercle créé avec un raon de ");
+		System.out.println("Nouveau cercle créé avec un rayon de ");
 		System.out.println(rayonDuCercle);
 
 	}
 
 	public double getPerimetre() {
 		return this.rayonDuCercle * 2 * Math.PI;
+	}
+
+	public double getRayon() {
+		return this.rayonDuCercle;
 	}
 
 	public double getSurface() {

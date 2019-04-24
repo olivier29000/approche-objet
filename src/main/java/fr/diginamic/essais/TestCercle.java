@@ -2,6 +2,7 @@ package fr.diginamic.essais;
 
 import fr.diginamic.entites.Cercle;
 import fr.diginamic.utils.CercleFactory;
+import fr.diginamic.utils.CercleService;
 
 public class TestCercle {
 
@@ -18,6 +19,9 @@ public class TestCercle {
 
 		CercleFactory.creerCercle(56.1);
 
+		CercleService.doubleCercle(cercle1);
+
+		System.out.println(cercle1.getRayon());
 	}
 
 }
