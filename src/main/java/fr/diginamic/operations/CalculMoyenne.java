@@ -1,7 +1,7 @@
 package fr.diginamic.operations;
 
 public class CalculMoyenne {
-	public double[] attributs;
+	private double[] attributs;
 
 	public CalculMoyenne(int tailleTableau) {
 		if (tailleTableau < 0) {
@@ -32,5 +32,13 @@ public class CalculMoyenne {
 
 		return attributs;
 
+	}
+
+	public double[] getAttributs() {
+		return attributs;
+	}
+
+	public void setAttributs(double[] attributs) {
+		this.attributs = attributs;
 	}
 }

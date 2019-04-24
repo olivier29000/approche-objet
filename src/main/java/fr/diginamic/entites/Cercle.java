@@ -1,7 +1,7 @@
 package fr.diginamic.entites;
 
 public class Cercle {
-	public double rayonDuCercle;
+	private double rayonDuCercle;
 
 	public Cercle(double rayon) {
 		rayonDuCercle = rayon;
@@ -21,5 +21,13 @@ public class Cercle {
 
 	public double getSurface() {
 		return this.rayonDuCercle * this.rayonDuCercle * Math.PI;
+	}
+
+	public double getRayonDuCercle() {
+		return rayonDuCercle;
+	}
+
+	public void setRayonDuCercle(double rayonDuCercle) {
+		this.rayonDuCercle = rayonDuCercle;
 	}
 }

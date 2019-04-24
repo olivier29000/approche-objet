@@ -21,7 +21,7 @@ public class TestCercle {
 
 		CercleService.doubleCercle(cercle1);
 
-		System.out.println(cercle1.getRayon());
+		System.out.println(cercle1.getRayonDuCercle());
 	}
 
 }
