@@ -67,6 +67,7 @@ public class TestMapPays {
 			System.out.println(u.getNom() + " " + u.getNbHabitants() + " " + u.getPib());
 			// ...
 		}
+
 	}
 
 }
